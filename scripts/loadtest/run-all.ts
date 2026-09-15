@@ -1,6 +1,6 @@
 import { spawnSync } from "node:child_process";
 
-const scripts = ["io-bound.ts", "cpu-bound.ts", "cpu-worker.ts", "cluster.ts"];
+const scripts = ["io-bound.ts", "cpu-bound.ts", "cpu-worker.ts"];
 
 for (const script of scripts) {
   console.log(`\n=== Running ${script} ===`);
