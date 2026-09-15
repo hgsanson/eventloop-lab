@@ -1,7 +1,7 @@
 {
   "name": "eventloop-lab",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js event loop lab: I/O vs CPU bound work, Worker Threads, Streams, backpressure and clustering, measured with real load tests.",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -18,7 +18,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
