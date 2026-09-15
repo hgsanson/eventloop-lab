@@ -1,5 +1,6 @@
 import Fastify from "fastify";
 import { config } from "./config.js";
+import { registerMetrics } from "./plugins/metrics.js";
 import { ioBoundRoute } from "./routes/io-bound.route.js";
 import { cpuBoundRoute } from "./routes/cpu-bound.route.js";
 
@@ -13,6 +14,8 @@ export function buildApp() {
           : { target: "pino-pretty" },
     },
   });
+
+  registerMetrics(app);
 
   app.get("/health", async () => {
     return { status: "ok" };
