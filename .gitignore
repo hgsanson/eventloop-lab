@@ -4,5 +4,3 @@ results/
 data/
 *.log
 .env
-
-docs
