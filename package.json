@@ -11,7 +11,8 @@
     "loadtest:io": "tsx scripts/loadtest/io-bound.ts",
     "loadtest:cpu": "tsx scripts/loadtest/cpu-bound.ts",
     "loadtest:cpu-worker": "tsx scripts/loadtest/cpu-worker.ts",
-    "loadtest:all": "tsx scripts/loadtest/run-all.ts"
+    "loadtest:all": "tsx scripts/loadtest/run-all.ts",
+    "generate:file": "tsx scripts/generate-large-file.ts"
   },
   "keywords": [],
   "author": "",
